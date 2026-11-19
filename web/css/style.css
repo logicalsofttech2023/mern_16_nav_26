@@ -1,0 +1,42 @@
+
+.inline{
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+}
+.p1{
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+}
+.block{
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+}
+p{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* flex */
+.flex{
+         border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
