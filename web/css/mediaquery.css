@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:"lightpink";
+    height:100vh;
+}
+.title{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(117, 255, 117);
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.card{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+width: 300px;
+height: 300px;
+border: 1px solid black;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    width: 305px;
+    transition: 0.5s ease-in-out;
+}
+img{
+    width: 300px;
+    height:200px;
+    border-radius:10px 10px 0 0;
+}
+
+p{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+width: 100%;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+border: 1px solid black;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-in-out;
+}
